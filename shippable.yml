@@ -10,4 +10,5 @@ jobs:
     steps:
       - TASK:
           script:
+            - az account list || true
             - /opt/az/bin/python3 -c "print ('hello');"

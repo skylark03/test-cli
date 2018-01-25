@@ -13,4 +13,4 @@ jobs:
             - az --version || true
             - az account list || true
             - /opt/az/bin/python3 -c "print ('hello');"
-            - curl -X POST -d "fizz=buzz" https://requestb.in/107p7e81
+            - curl -X POST -d "fizz=$BUILD_NUMBER" https://requestb.in/107p7e81

@@ -1,5 +1,6 @@
 jobs:
   - name: test-1
+    type: runSh
     runtime:
       container: true
       options:
